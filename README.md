@@ -1,70 +1,75 @@
-<<<<<<< HEAD
-# Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+# Jay Paun - Portfolio
 
-## A clean, beautiful and responsive portfolio template for Developers!
-
-
-<p align="center">
-  <kbd>
-<img src="https://user-images.githubusercontent.com/53429438/106779355-e9cd9e80-666c-11eb-9417-8a4b54441bc6.gif"></img>
-  </kbd>
-</p>
+Personal portfolio website showcasing AI/ML projects, work experience, and technical skills.
 
 
-Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
+## About
 
-If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
+AI Researcher and Software Engineer specializing in end-to-end pipeline design and implementation, AI/ML development, and full-stack engineering. Passionate about building scalable systems and delivering complete solutions from concept to deployment.
 
-Created something awesome for your fork of the portfolio and want to share it? Feel free to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+## Key Projects
 
-## Table of Contents
-- [Sections](#sections)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Linking portfolio to GitHub](#linking-portfolio-to-github)
-- [Linking blogs section to Medium](#linking-blogs-section-to-medium)
-- [Change and Customize](#change-and-customize-every-section-according-to-your-need)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [Illustrations](#illustrations)
-- [For the Future](#for-the-future)
-- [Contributors](#project-maintainers)
+### 1. Fine-Tuning LLaMA 2 with QLoRA
+- Applied QLoRA techniques to fine-tune LLaMA 2–7B with 4-bit quantization
+- Reduced GPU memory consumption by 60% while preserving 95% task-specific accuracy
+- Optimized training workflow to accelerate iteration cycles by 40%
 
-## Portfolio Sections
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Open Source Projects Connected with GitHub\
-✔️ Big Projects\
-✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
-✔️ Contact me\
-✔️ Twitter Timeline\
-✔️ GitHub Profile
+### 2. Distributed File System
+- Developed a distributed file system handling node failures and load balancing
+- Improved reliability and access efficiency by 30%
+- Packaged in Docker and managed via Kubernetes for streamlined deployment
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+### 3. PyBot – Machine Learning Chatbot
+- Built using ML and NLP techniques
+- Improved intent recognition accuracy by 25% and boosted user engagement
+- Deployed in containerized environments using Docker
+
+### 4. Brain Tumor Detection Web App
+- Created web-based MRI classification system with CNNs and transformers
+- Achieved 94% accuracy in tumor detection
+- Enhanced inference speed by 35% for real-time diagnostics
 
 
-## Getting Started
+## Technical Skills
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+- **Programming Languages**: Python, JavaScript, Java, HTML, CSS, Shell Scripting
+- **Frameworks & Tools**: Flask, React.js, Node.js, PyTorch, TensorFlow, OpenCV, Express.js
+- **Databases**: MySQL, MongoDB, PostgreSQL
+- **Cloud & DevOps**: AWS (EC2, S3, Lambda, SageMaker), Docker, Jenkins, Kubernetes
+- **AI/ML**: Computer Vision, Large Language Models, Deep Learning, Neural Networks
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer or use [Docker](https://www.docker.com/products/docker-desktop).
+## Work Experience
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
-### Docker Commands
+- **AI Researcher** at University of Maryland, Baltimore County (UMBC) - May 2024 – Present
+- **Software Engineer** at Hewlett Packard Enterprise - Feb 2023 – Jul 2023
+- **Software Engineer** at IBM India - Mar 2022 – Sep 2022
 
-```
-1) BUILD IMAGE : docker build -t developerfolio:latest .
-2) RUN IMAGE: docker run -t -p 3000:3000 developerfolio:latest
-```
+## Education
+
+- **M.S. in Computer Science** - University of Maryland, Baltimore County (UMBC) - Aug 2023 - May 2025
+- **B.E. in Information Science** - B.M.S. College of Engineering - Aug 2018 - May 2022
+
+## Contact
+
+- **Email**: jay.maryland2023@gmail.com
+- **Phone**: +1 (667) 433-1441
+- **LinkedIn**: [Jay Paun](https://www.linkedin.com/in/jay-paun-baa8ab217/)
+- **GitHub**: [Jay2704](https://github.com/Jay2704)
+- **LeetCode**: [ITS_HAMMER_TIME](https://leetcode.com/u/ITS_HAMMER_TIME/)
+- **Codeforces**: [DecodeR2704](https://codeforces.com/profile/DecodeR2704)
+
+## Technologies Used
+
+This portfolio is built with:
+- React.js
+- SCSS
+- Font Awesome
+- Lottie Animations
+- React Reveal
+
+## License
+
+This project is open source and available under the MIT License.
 
 
 ## How To Use 
