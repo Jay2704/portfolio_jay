@@ -8,18 +8,6 @@ export default function socialMedia() {
   }
   return (
     <div className="social-media-div">
-      {socialMediaLinks.github ? (
-        <a
-          href={socialMediaLinks.github}
-          className="icon-button github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-github"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.linkedin ? (
         <a
           href={socialMediaLinks.linkedin}
@@ -40,6 +28,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.github ? (
+        <a
+          href={socialMediaLinks.github}
+          className="icon-button github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-github"></i>
           <span></span>
         </a>
       ) : null}
@@ -124,6 +124,36 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.leetcode ? (
+        <a
+          href={socialMediaLinks.leetcode}
+          className="icon-button leetcode"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../../assets/images/leetcode.png")}
+            alt="LeetCode"
+          />
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.codeforces ? (
+        <a
+          href={socialMediaLinks.codeforces}
+          className="icon-button codeforces"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={require("../../assets/images/codeforces.503f883f-8339-4dc5-8609-81713a59281f")}
+            alt="Codeforces"
+          />
           <span></span>
         </a>
       ) : null}

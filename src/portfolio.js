@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Jay Paun",
+  title: "Hi, I'm Jay",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "AI Researcher and Software Engineer specializing in end-to-end pipeline design and implementation, AI/ML development, and full-stack engineering. Passionate about building scalable systems and delivering complete solutions from concept to deployment."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "/Jay_resume_sept.pdf", // Place resume at public/Jay_resume_sept.pdf to preview in browser
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Jay2704",
+  linkedin: "https://www.linkedin.com/in/jay-paun-baa8ab217/",
+  gmail: "jay.maryland2023@gmail.com",
+  leetcode: "https://leetcode.com/u/ITS_HAMMER_TIME/",
+  codeforces: "https://codeforces.com/profile/DecodeR2704",
+  gitlab: "", // Add your GitLab if you have one
+  facebook: "", // Add your Facebook if you want to display it
+  medium: "", // Add your Medium if you have one
+  stackoverflow: "", // Add your Stack Overflow if you have one
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +49,24 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Technical Skills",
+  subTitle: "AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Programming Languages: Python, JavaScript, Java, HTML, CSS, Shell Scripting"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Frameworks & Version Control: Flask, React.js, Node.js, PyTorch, TensorFlow, Redux, OpenCV, Express.js, GitHub, Git"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Databases: MySQL, MongoDB, PostgreSQL"
+    ),
+    emoji(
+      "⚡ DevOps & APIs: AWS (EC2, S3, Lambda, SageMaker), Docker, Jenkins, REST, Git, Prometheus, Grafana"
+    ),
+    emoji(
+      "⚡ Methodologies & Tools: SDLC, Agile/Scrum, OOP, Data Structures & Algorithms, Tableau, Jupyter Notebook, JIRA"
+    ),
+    emoji(
+      "⚡ Domain Expertise: Full-Stack Development, Computer Vision, Large-Language Models, Deep Learning, Machine Learning, Neural Networks, Human–Robot Interaction"
     )
   ],
 
@@ -65,16 +75,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
@@ -89,32 +91,36 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "tensorflow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "pytorch",
+      fontAwesomeClassname: "fas fa-robot"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +132,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Maryland, Baltimore County (UMBC)",
+      logo: require("./assets/images/umbc.png"),
+      subHeader: "M.S. in Computer Science",
+      duration: "Aug 2023 - May 2025",
+      desc: "Pursuing Master's degree in Computer Science with focus on AI/ML research and multimodal systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Specializing in Artificial Intelligence and Machine Learning",
+        "Research focus on multimodal lie-detection systems"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "B.M.S. College of Engineering (B.M.S.C.E)",
+      logo: require("./assets/images/bms.png"),
+      subHeader: "B.E. in Information Science",
+      duration: "Aug 2018 - May 2022",
+      desc: "Bachelor's degree in Information Science with strong foundation in computer science fundamentals.",
+      descBullets: [
+        "Strong foundation in software engineering and data structures",
+        "Hands-on experience with various programming languages and frameworks"
+      ]
     }
   ]
 };
@@ -153,16 +162,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "60%" // Lower emphasis on frontend
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "AI/ML",
+      progressPercentage: "98%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +183,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "A.I. Researcher",
+      company: "University of Maryland, Baltimore County (UMBC)",
+      companylogo: require("./assets/images/umbc.png"),
+      date: "May 2024 – Present · Baltimore, MD",
+      desc:
+        "Developing multimodal lie-detection systems combining EEG and visual data; engineering scalable data pipelines for preprocessing and augmentation; work under peer review.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Improved classification accuracy up to 89% across diverse subjects",
+        "Expanded training data by 4x, enhancing model generalization"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Hewlett Packard Enterprise",
+      companylogo: require("./assets/images/HPE.jpg"),
+      date: "Feb 2023 – Jul 2023 · Bangalore, India",
+      desc:
+        "Automated and optimized cloud infrastructure workflows on AWS using Ansible and Jenkins, improving performance and deployment speed.",
+      descBullets: [
+        "Reduced manual intervention by ~40% and increased deployment speed by ~25%",
+        "Optimized AWS (EC2, S3, DynamoDB), reducing latency ~30% under peak loads"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "IBM India",
+      companylogo: require("./assets/images/IBM.png"),
+      date: "Mar 2022 – Sep 2022 · Bangalore, India",
+      desc:
+        "Built a log assessment utility with error sequence detection, automated reporting, and support for 1000+ log files; improved debugging workflows for enterprise apps.",
+      descBullets: [
+        "Accelerated root cause analysis by ~20%",
+        "Implemented keyword-based filtering and stack trace isolation"
+      ]
     }
   ]
 };
@@ -212,29 +232,50 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Featured Projects",
+  subtitle: "AI/ML AND FULL-STACK PROJECTS SHOWCASING END-TO-END DEVELOPMENT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cloud.webp"),
+      projectName: "Fine-Tuning LLaMA 2 with QLoRA",
+      projectDesc: "Applied QLoRA techniques to fine-tune LLaMA 2–7B with 4-bit quantization, reducing GPU memory consumption by 60% while preserving 95% task-specific accuracy. Optimized training workflow to accelerate iteration cycles by 40%.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/Jay2704/distributed_file_system"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/distrbuted.png"),
+      projectName: "Distributed File System",
+      projectDesc: "Developed a distributed file system that handles node failures and balances request load, improving reliability and access efficiency by 30%. Packaged in Docker and managed via Kubernetes for streamlined deployment.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/Jay2704/pybot_NLP"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/pybot.webp"),
+      projectName: "PyBot – Machine Learning Chatbot",
+      projectDesc: "Built a chatbot using ML and NLP techniques, improving intent recognition accuracy by 25% and boosting user engagement. Deployed in containerized environments using Docker for consistent performance across platforms.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Jay2704"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/brain.jpg"),
+      projectName: "Brain Tumor Detection Web App",
+      projectDesc: "Created a web-based MRI classification system with ML and DL models like CNNs and transformers, reaching 94% accuracy in tumor detection. Enhanced inference speed by 35% for real-time diagnostics via user-friendly web interface.",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/Jay-2704/CMSC_668_brain_tumor_detection"
         }
       ]
     }
@@ -372,8 +413,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (667) 433-1441",
+  email_address: "jay.maryland2023@gmail.com"
 };
 
 // Twitter Section

@@ -71,9 +71,9 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          {viewResume && (
+          {viewResume && greeting.resumeLink && (
             <li>
-              <a href="#resume">Resume</a>
+              <a href={greeting.resumeLink} target="_blank" rel="noreferrer">Resume</a>
             </li>
           )}
           <li>

@@ -79,16 +79,18 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   left: 0;
   right: 0;
   top: 7rem;
   margin-left: auto;
   margin-right: auto;
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  background-color: white;
+  padding: 0.5rem;
 }
 
 .experience-text-role {
@@ -135,8 +137,8 @@
     font-size: 18px;
   }
   .experience-roundedimg {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6rem;
+    height: 6rem;
   }
 }
 
@@ -153,4 +155,50 @@
   .experience-text-desc {
     font-size: 16px;
   }
+}
+
+/* Company-specific experience card backgrounds */
+.experience-card:nth-child(1) {
+  background: linear-gradient(135deg, #ffd700, #ffed4e) !important; /* More yellowish for UMBC */
+  color: black;
+}
+
+.experience-card:nth-child(1) .experience-text-role,
+.experience-card:nth-child(1) .experience-text-company,
+.experience-card:nth-child(1) .experience-text-date {
+  color: white !important;
+}
+
+.experience-card:nth-child(1) .experience-text-desc {
+  color: black !important;
+}
+
+.experience-card:nth-child(2) {
+  background: linear-gradient(135deg, #e8f5e8, #c8e6c9) !important; /* Light green for HPE */
+  color: black;
+}
+
+.experience-card:nth-child(2) .experience-text-role,
+.experience-card:nth-child(2) .experience-text-company,
+.experience-card:nth-child(2) .experience-text-date {
+  color: white !important;
+}
+
+.experience-card:nth-child(2) .experience-text-desc {
+  color: black !important;
+}
+
+.experience-card:nth-child(3) {
+  background: linear-gradient(135deg, #0066cc, #87ceeb) !important; /* Blue gradient for IBM */
+  color: black;
+}
+
+.experience-card:nth-child(3) .experience-text-role,
+.experience-card:nth-child(3) .experience-text-company,
+.experience-card:nth-child(3) .experience-text-date {
+  color: white !important;
+}
+
+.experience-card:nth-child(3) .experience-text-desc {
+  color: black !important;
 }
