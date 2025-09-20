@@ -232,7 +232,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Featured Projects",
+  title: "Projects",
   subtitle: "AI/ML AND FULL-STACK PROJECTS SHOWCASING END-TO-END DEVELOPMENT",
   projects: [
     {

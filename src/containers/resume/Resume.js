@@ -30,16 +30,6 @@ export default function Resume() {
             >
               {resumeSection.subtitle}
             </p>
-            <div className="resume-iframe-container">
-              <iframe
-                src="/Jay_resume_sept.pdf#toolbar=1&navpanes=1&scrollbar=1"
-                width="100%"
-                height="800px"
-                title="Resume"
-                className="resume-iframe"
-                type="application/pdf"
-              />
-            </div>
             <div className="resume-download-section">
               <a
                 href="/Jay_resume_sept.pdf"
