@@ -1,8 +1,9 @@
 {
   "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
-  "version": "0.1.0",
+  "name": "portfolio-jay",
+  "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",

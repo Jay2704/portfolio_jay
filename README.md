@@ -69,7 +69,11 @@ This portfolio is built with:
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Attribution**: This portfolio is based on the [developerFolio](https://github.com/saadpasta/developerFolio) template by Saad Pasta, which is also licensed under the MIT License.
+
+**Copyright**: Portfolio content, personal information, and customizations are copyright © 2025 Jay Paun.
 
 
 ## How To Use 
