@@ -2,6 +2,10 @@
 
 Personal portfolio website showcasing AI/ML projects, work experience, and technical skills.
 
+## Summary
+
+AI Researcher and Software Engineer with expertise in end-to-end pipeline design, AI/ML development, and full-stack engineering. Currently pursuing M.S. in Computer Science at UMBC with hands-on experience at leading tech companies including IBM and Hewlett Packard Enterprise. Passionate about building scalable systems and delivering complete solutions from concept to deployment.
+
 
 ## About
 
