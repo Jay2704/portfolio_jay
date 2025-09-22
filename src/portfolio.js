@@ -41,8 +41,6 @@ const socialMediaLinks = {
   facebook: "", // Add your Facebook if you want to display it
   medium: "", // Add your Medium if you have one
   stackoverflow: "", // Add your Stack Overflow if you have one
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
