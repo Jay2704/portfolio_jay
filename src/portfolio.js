@@ -189,7 +189,8 @@ const workExperiences = {
         "Developing multimodal lie-detection systems combining EEG and visual data. Engineering scalable data pipelines for preprocessing and augmentation. Work under peer review.",
       descBullets: [
         "Improved classification accuracy up to 89% across diverse subjects",
-        "Expanded training data by 4x, enhancing model generalization"
+        "Expanded training data by 4x, enhancing model generalization",
+        "Published research findings under peer review process"
       ]
     },
     {
