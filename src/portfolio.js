@@ -48,24 +48,24 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Technical Skills",
-  subTitle: "AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE",
+  title: "Technical Arsenal",
+  subTitle: "🚀 AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE 🚀",
   skills: [
     emoji(
-      "⚡ Programming Languages: Python, JavaScript, Java, HTML, CSS, Shell Scripting"
+      "💻 Code Crafting: Python, JavaScript, Java, HTML5, CSS3, Shell Scripting - Building digital solutions with precision"
     ),
-    emoji("⚡ Frameworks & Version Control: Flask, React.js, Node.js, PyTorch, TensorFlow, Redux, OpenCV, Express.js, GitHub, Git"),
+    emoji("⚛️ Modern Frameworks: React.js, Node.js, Flask, Express.js, Redux - Creating scalable and responsive applications"),
     emoji(
-      "⚡ Databases: MySQL, MongoDB, PostgreSQL"
-    ),
-    emoji(
-      "⚡ DevOps & APIs: AWS (EC2, S3, Lambda, SageMaker), Docker, Jenkins, REST, Git, Prometheus, Grafana"
+      "🤖 AI/ML Powerhouse: PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks"
     ),
     emoji(
-      "⚡ Methodologies & Tools: SDLC, Agile/Scrum, OOP, Data Structures & Algorithms, Tableau, Jupyter Notebook, JIRA"
+      "☁️ Cloud & DevOps: AWS (EC2, S3, Lambda, SageMaker), Docker, Jenkins, Kubernetes - Orchestrating seamless deployments"
     ),
     emoji(
-      "⚡ Domain Expertise: Full-Stack Development, Computer Vision, Large-Language Models, Deep Learning, Machine Learning, Neural Networks, Human–Robot Interaction"
+      "🗄️ Data Management: MySQL, MongoDB, PostgreSQL - Architecting robust data solutions"
+    ),
+    emoji(
+      "🎯 Specialized Domains: Computer Vision, Human-Robot Interaction, Full-Stack Development, SDLC, Agile/Scrum"
     )
   ],
 
