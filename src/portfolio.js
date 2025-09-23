@@ -212,7 +212,7 @@ const workExperiences = {
       companylogo: require("./assets/images/IBM.png"),
       date: "Mar 2022 – Sep 2022 · Bangalore, India",
       desc:
-        "Built a log assessment utility with error sequence detection, automated reporting, and support for 1000+ log files; improved debugging workflows for enterprise apps.",
+        "At IBM, I developed a robust log assessment utility designed to streamline debugging in large-scale enterprise applications. The tool supported over 1,000 log files and featured automated error sequence detection, keyword-based filtering, and stack trace isolation. It significantly improved root cause analysis speed by 20%, enabling faster resolution of production issues. By categorizing logs based on patterns and timestamps, the utility helped identify recurring failures and performance bottlenecks. This project enhanced observability, reduced manual analysis, and supported smoother CI/CD workflows. It was a key backend enhancement, improving developer productivity and system reliability in a fast-paced enterprise environment.",
       descBullets: [
         "Accelerated root cause analysis by ~20%",
         "Implemented keyword-based filtering and stack trace isolation"
