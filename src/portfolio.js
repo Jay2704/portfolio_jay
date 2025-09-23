@@ -15,6 +15,7 @@ const splashScreen = {
 
 // Summary And Greeting Section
 
+
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -199,7 +200,7 @@ const workExperiences = {
       companylogo: require("./assets/images/HPE.jpg"),
       date: "Feb 2023 – Jul 2023 · Bangalore, India",
       desc:
-        "Automated and optimized cloud infrastructure workflows on AWS using Ansible and Jenkins, improving performance and deployment speed.",
+        "At HPE, I contributed to cloud infrastructure automation by building scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40% and boosting delivery speed by 25%. I optimized application performance on AWS by configuring services like EC2, S3, and DynamoDB, resulting in 30% lower latency under peak load. I worked collaboratively across teams to improve deployment workflows and implemented infrastructure-as-code practices to ensure consistent, repeatable environments. This role strengthened my expertise in cloud-native development and CI/CD, while also giving me hands-on experience in delivering efficient, resilient systems in an enterprise setting.",
       descBullets: [
         "Reduced manual intervention by ~40% and increased deployment speed by ~25%",
         "Optimized AWS (EC2, S3, DynamoDB), reducing latency ~30% under peak loads"
