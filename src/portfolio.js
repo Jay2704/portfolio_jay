@@ -186,7 +186,7 @@ const workExperiences = {
       companylogo: require("./assets/images/umbc.png"),
       date: "May 2024 – Present · Baltimore, MD",
       desc:
-        "Developing multimodal lie-detection systems combining EEG and visual data; engineering scalable data pipelines for preprocessing and augmentation; work under peer review.",
+        "Developing multimodal lie-detection systems combining EEG and visual data. Engineering scalable data pipelines for preprocessing and augmentation. Work under peer review.",
       descBullets: [
         "Improved classification accuracy up to 89% across diverse subjects",
         "Expanded training data by 4x, enhancing model generalization"
