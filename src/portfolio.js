@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Jay Paun",
-  title: "Hi, I'm Jay",
+  title: "Hi, I am Jay Paun",
   subTitle: emoji(
     "AI Researcher and Software Engineer specializing in end-to-end pipeline design and implementation, AI/ML development, and full-stack engineering. Passionate about building scalable systems and delivering complete solutions from concept to deployment."
   ),

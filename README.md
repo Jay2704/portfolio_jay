@@ -71,6 +71,105 @@ This portfolio is built with:
 - Lottie Animations
 - React Reveal
 
+## Features
+
+- Dynamic sections driven by `src/portfolio.js`
+- Optional GitHub data fetch for profile and repos
+- Responsive layout with SCSS theming and dark mode toggle
+- One-command local dev, build, and deploy scripts
+
+## Quick Start
+
+```bash
+git clone https://github.com/Jay2704/developerFolio.git
+cd developerFolio
+cp env.example .env   # then edit .env
+npm install
+npm start
+```
+
+The app will start on `http://localhost:3000/`.
+
+## Prerequisites
+
+- Node.js 18+ (recommended Node 20 to match Dockerfile)
+- npm 8+
+
+## Environment Variables
+
+Create a `.env` file from the provided example and fill in your values:
+
+```bash
+cp env.example .env
+```
+
+Required keys (see `env.example`):
+
+- `REACT_APP_GITHUB_TOKEN`: Optional but recommended for higher GitHub API limits
+- `GITHUB_USERNAME`: Your GitHub username (used when fetching data)
+- `USE_GITHUB_DATA`: `"true"` to fetch profile/repo data from GitHub; set `"false"` to rely entirely on `src/portfolio.js`
+- `MEDIUM_USERNAME`: Optional; set to fetch Medium blog data
+
+Note: Do not commit your `.env`. Keep your token private.
+
+## Run Locally
+
+```bash
+npm start
+```
+
+This runs `node fetch.js` before starting the dev server to pre-fetch any configured external data.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Outputs an optimized build in the `build/` directory.
+
+## Docker
+
+Build and run using Docker (Node 20 Alpine base):
+
+```bash
+docker build -t portfolio-jay .
+docker run --rm -p 3000:3000 --env-file .env portfolio-jay
+```
+
+Then open `http://localhost:3000/`.
+
+## Deploy
+
+This repo includes a GitHub Pages workflow via `gh-pages`:
+
+```bash
+npm run deploy
+```
+
+Tips:
+
+- Update `homepage` in `package.json` to your site URL for correct asset paths (e.g., `https://<username>.github.io/<repo>`).
+- Ensure your branch and Pages settings align with the `deploy` script (current script publishes the `build/` directory to the `master` branch using `gh-pages`).
+
+You can also deploy the `build/` folder to any static host (Netlify, Vercel, S3, etc.).
+
+## Customization
+
+- Content: Edit `src/portfolio.js` to change bio, projects, skills, and links.
+- Theming: Adjust `src/_globalColor.scss` and SCSS modules for colors and styles.
+- Assets: Replace images in `src/assets/images/` and Lottie files in `src/assets/lottie/`.
+- Sections: Update containers under `src/containers/` and components in `src/components/`.
+
+## Available Scripts
+
+- `npm start`: Fetch data and start the development server
+- `npm run build`: Fetch data and create a production build
+- `npm run deploy`: Publish `build/` to GitHub Pages
+- `npm test`: Run tests
+- `npm run format`: Format code with Prettier
+- `npm run check-format`: Check formatting
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
