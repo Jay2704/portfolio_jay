@@ -200,10 +200,11 @@ const workExperiences = {
       companylogo: require("./assets/images/HPE.jpg"),
       date: "Feb 2023 – Jul 2023 · Bangalore, India",
       desc:
-        "At HPE, I contributed to cloud infrastructure automation by building scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40% and boosting delivery speed by 25%. I optimized application performance on AWS by configuring services like EC2, S3, and DynamoDB, resulting in 30% lower latency under peak load. I worked collaboratively across teams to improve deployment workflows and implemented infrastructure-as-code practices to ensure consistent, repeatable environments. This role strengthened my expertise in cloud-native development and CI/CD, while also giving me hands-on experience in delivering efficient, resilient systems in an enterprise setting.",
+        "Automated cloud infrastructure workflows and optimized AWS performance for enterprise applications.",
       descBullets: [
-        "Reduced manual intervention by ~40% and increased deployment speed by ~25%",
-        "Optimized AWS (EC2, S3, DynamoDB), reducing latency ~30% under peak loads"
+        "Built scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40%",
+        "Optimized AWS services (EC2, S3, DynamoDB), reducing latency by 30% under peak loads",
+        "Implemented infrastructure-as-code practices and improved CI/CD workflows across teams"
       ]
     },
     {
@@ -212,10 +213,11 @@ const workExperiences = {
       companylogo: require("./assets/images/IBM.png"),
       date: "Mar 2022 – Sep 2022 · Bangalore, India",
       desc:
-        "At IBM, I developed a robust log assessment utility designed to streamline debugging in large-scale enterprise applications. The tool supported over 1,000 log files and featured automated error sequence detection, keyword-based filtering, and stack trace isolation. It significantly improved root cause analysis speed by 20%, enabling faster resolution of production issues. By categorizing logs based on patterns and timestamps, the utility helped identify recurring failures and performance bottlenecks. This project enhanced observability, reduced manual analysis, and supported smoother CI/CD workflows. It was a key backend enhancement, improving developer productivity and system reliability in a fast-paced enterprise environment.",
+        "Developed log assessment utility for enterprise debugging and improved system observability.",
       descBullets: [
-        "Accelerated root cause analysis by ~20%",
-        "Implemented keyword-based filtering and stack trace isolation"
+        "Built robust log assessment tool supporting 1,000+ log files with automated error detection",
+        "Improved root cause analysis speed by 20% through keyword-based filtering and stack trace isolation",
+        "Enhanced observability and CI/CD workflows, reducing manual analysis and improving developer productivity"
       ]
     }
   ]
