@@ -77,11 +77,12 @@ This portfolio is built with:
 - Optional GitHub data fetch for profile and repos
 - Responsive layout with SCSS theming and dark mode toggle
 - One-command local dev, build, and deploy scripts
+- Enhanced “Technical Arsenal” section with emoji-rich, categorized skill highlights
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/Jay2704/developerFolio.git
+git clone https://github.com/Jay2704/portfolio_jay.git
 cd developerFolio
 cp env.example .env   # then edit .env
 npm install
