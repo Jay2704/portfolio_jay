@@ -49,6 +49,7 @@ AI Researcher and Software Engineer specializing in end-to-end pipeline design, 
   - Engineering scalable data pipelines for preprocessing and augmentation
   - Ongoing work under peer review with promising classification results
 - **Software Engineer** at Hewlett Packard Enterprise - Feb 2023 – Jul 2023
+  - At HPE, I contributed to cloud infrastructure automation by building scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40% and boosting delivery speed by 25%. I optimized application performance on AWS by configuring services like EC2, S3, and DynamoDB, resulting in 30% lower latency under peak load. I worked collaboratively across teams to improve deployment workflows and implemented infrastructure-as-code practices to ensure consistent, repeatable environments. This role strengthened my expertise in cloud-native development and CI/CD, while also giving me hands-on experience in delivering efficient, resilient systems in an enterprise setting.
 - **Software Engineer** at IBM India - Mar 2022 – Sep 2022
 
 ## Education
