@@ -45,6 +45,9 @@ AI Researcher and Software Engineer specializing in end-to-end pipeline design, 
 ## Work Experience
 
 - **AI Researcher** at University of Maryland, Baltimore County (UMBC) - May 2024 – Present
+  - Developing multimodal lie-detection systems combining EEG and visual data
+  - Engineering scalable data pipelines for preprocessing and augmentation
+  - Ongoing work under peer review with promising classification results
 - **Software Engineer** at Hewlett Packard Enterprise - Feb 2023 – Jul 2023
 - **Software Engineer** at IBM India - Mar 2022 – Sep 2022
 
