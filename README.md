@@ -7,9 +7,15 @@ Personal portfolio website showcasing AI/ML projects, work experience, and techn
 AI Researcher and Software Engineer with expertise in end-to-end pipeline design, AI/ML development, and full-stack engineering. Currently pursuing M.S. in Computer Science at UMBC with hands-on experience at leading tech companies including IBM and Hewlett Packard Enterprise. Passionate about building scalable systems and delivering complete solutions from concept to deployment.
 
 
+## Bio
+
+Hello! I'm Jay Paun, an AI Researcher and Software Engineer passionate about bridging the gap between cutting-edge research and practical applications. My journey began in India, where I earned my Bachelor's in Information Science from B.M.S. College of Engineering, followed by hands-on experience at IBM and Hewlett Packard Enterprise. Currently pursuing my Master's in Computer Science at UMBC, I'm deeply involved in multimodal AI research, particularly in lie-detection systems that combine EEG brain signals with computer vision.
+
+What drives me is the challenge of taking complex AI concepts and making them work reliably in real-world scenarios. Whether it's optimizing GPU memory usage for large language models, building distributed systems that handle failures gracefully, or creating tools that help developers debug faster, I love the intersection of research and engineering. When I'm not coding or researching, you'll find me exploring new technologies, contributing to open-source projects, or diving deep into the latest developments in AI and machine learning.
+
 ## About
 
-AI Researcher and Software Engineer specializing in end-to-end pipeline design, AI/ML development, and full‑stack engineering. My work spans multimodal AI (EEG + vision), MLOps, distributed systems, and cloud-native architectures. I enjoy taking ideas from exploration to reliable production—optimizing data pipelines, training/inference, and DevOps at scale. Currently at UMBC, I’m focused on research-driven engineering and impactful, user-centered solutions.
+AI Researcher and Software Engineer specializing in end-to-end pipeline design, AI/ML development, and full‑stack engineering. My work spans multimodal AI (EEG + vision), MLOps, distributed systems, and cloud-native architectures. I enjoy taking ideas from exploration to reliable production—optimizing data pipelines, training/inference, and DevOps at scale. Currently at UMBC, I'm focused on research-driven engineering and impactful, user-centered solutions.
 
 ## Key Projects
 
