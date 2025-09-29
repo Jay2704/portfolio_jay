@@ -13,22 +13,22 @@ AI Researcher and Software Engineer specializing in end-to-end pipeline design, 
 
 ## Key Projects
 
-### 1. Fine-Tuning LLaMA 2 with QLoRA
+### Fine-Tuning LLaMA 2 with QLoRA
 - Applied QLoRA techniques to fine-tune LLaMA 2–7B with 4-bit quantization
 - Reduced GPU memory consumption by 60% while preserving 95% task-specific accuracy
 - Optimized training workflow to accelerate iteration cycles by 40%
 
-### 2. Distributed File System
+### Distributed File System
 - Developed a distributed file system handling node failures and load balancing
 - Improved reliability and access efficiency by 30%
 - Packaged in Docker and managed via Kubernetes for streamlined deployment
 
-### 3. PyBot – Machine Learning Chatbot
+### PyBot – Machine Learning Chatbot
 - Built using ML and NLP techniques
 - Improved intent recognition accuracy by 25% and boosted user engagement
 - Deployed in containerized environments using Docker
 
-### 4. Brain Tumor Detection Web App
+### Brain Tumor Detection Web App
 - Created web-based MRI classification system with CNNs and transformers
 - Achieved 94% accuracy in tumor detection
 - Enhanced inference speed by 35% for real-time diagnostics
