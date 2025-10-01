@@ -39,7 +39,7 @@ AI Researcher and Software Engineer specializing in end-to-end pipeline design, 
 - **Programming Languages**: Python, JavaScript, Java, HTML, CSS, Shell Scripting
 - **Frameworks & Tools**: Flask, React.js, Node.js, PyTorch, TensorFlow, OpenCV, Express.js
 - **Databases**: MySQL, MongoDB, PostgreSQL
-- **Cloud & DevOps**: AWS (EC2, S3, Lambda, SageMaker), Docker, Jenkins, Kubernetes
+- **Cloud & DevOps**: AWS, Docker, Jenkins, Kubernetes
 - **AI/ML**: Computer Vision, Large Language Models, Deep Learning, Neural Networks
 
 ## Work Experience

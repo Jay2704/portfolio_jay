@@ -12,7 +12,6 @@ const splashScreen = {
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
-
 // Summary And Greeting Section
 
 
@@ -59,7 +58,7 @@ const skillsSection = {
       "🤖 AI/ML Powerhouse: PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks"
     ),
     emoji(
-      "☁️ Cloud & DevOps: AWS (EC2, S3, Lambda, SageMaker), Docker, Jenkins, Kubernetes - Orchestrating seamless deployments"
+      "☁️ Cloud & DevOps: AWS, Docker, Jenkins, Kubernetes - Orchestrating seamless deployments"
     ),
     emoji(
       "🗄️ Data Management: MySQL, MongoDB, PostgreSQL - Architecting robust data solutions"
