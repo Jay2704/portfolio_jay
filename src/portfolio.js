@@ -189,7 +189,6 @@ const workExperiences = {
         "Developing multimodal lie-detection systems combining EEG and visual data. Engineering scalable data pipelines for preprocessing and augmentation. Work under peer review.",
       descBullets: [
         "Achieved high accuracy across diverse subjects",
-        "Expanded training data by 4x, enhancing model generalization",
         "Published research findings under peer review process"
       ]
     },
