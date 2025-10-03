@@ -9,7 +9,7 @@ AI Researcher and Software Engineer with expertise in end-to-end pipeline design
 
 ## About
 
-AI Researcher and Software Engineer specializing in end-to-end pipeline design, AI/ML development, and full‑stack engineering. My work spans multimodal AI (EEG brain signals + vision), MLOps, distributed systems, and cloud-native architectures. I enjoy taking ideas from exploration to reliable production—optimizing data pipelines, training/inference, and DevOps at scale. Currently at UMBC, I'm focused on research-driven engineering and impactful, user-centered solutions.
+Passionate AI Researcher and Software Engineer with expertise in multimodal systems, machine learning, and full-stack development. Currently pursuing advanced research in lie-detection systems combining EEG brain signals with computer vision at UMBC. Experienced in building scalable cloud infrastructure, optimizing AI models, and delivering end-to-end solutions from research to production. Committed to advancing the intersection of neuroscience and artificial intelligence through innovative engineering approaches.
 
 ## Key Projects
 
