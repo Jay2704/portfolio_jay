@@ -56,7 +56,7 @@ Passionate AI Researcher and Software Engineer with expertise in multimodal syst
 ## Education
 
 - **M.S. in Computer Science** - University of Maryland, Baltimore County (UMBC) - Aug 2023 - May 2025
-- **B.E. in Information Science** - B.M.S. College of Engineering - Aug 2018 - May 2022
+- **B.E. in Information Science** - BMS College of Engineering - August 2018 - June 2022
 
 ## Contact
 
