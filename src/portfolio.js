@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Technical Arsenal",
-  subTitle: "🚀 AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE 🚀",
+  subTitle: "AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE",
   skills: [
     emoji(
       "💻 Code Crafting: Python, JavaScript, Java, HTML5, CSS3, Shell Scripting - Building digital solutions with precision"
