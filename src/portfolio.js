@@ -58,6 +58,9 @@ const skillsSection = {
       "🤖 AI/ML Powerhouse: PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks"
     ),
     emoji(
+      "🧠 GenAI & Orchestration: LangChain, LangGraph, RAG pipelines, LLMs, fine-tuning, CrewAI, n8n automations"
+    ),
+    emoji(
       "☁️ Cloud & DevOps: AWS, Docker, Jenkins, Kubernetes - Orchestrating seamless deployments"
     ),
     emoji(
