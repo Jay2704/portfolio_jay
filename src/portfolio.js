@@ -161,7 +161,7 @@ const techStack = {
   experience: [
     {
       Stack: "AI/ML",
-      progressPercentage: "98%"
+      progressPercentage: "92%"
     },
     {
       Stack: "Backend",
