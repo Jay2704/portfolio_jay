@@ -54,9 +54,8 @@ export default function Skills() {
                         ? "dark-mode subTitle skills-text"
                         : "subTitle skills-text"
                     }
-                  >
-                    {skills}
-                  </p>
+                    dangerouslySetInnerHTML={{ __html: skills }}
+                  ></p>
                 );
               })}
             </div>
