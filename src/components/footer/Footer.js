@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="footer-div">
         {/* Removed default credit line as requested */}
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Built with ❤️ using{" "}
+          Built using{" "}
           <a 
             href="https://github.com/saadpasta/developerFolio" 
             target="_blank" 
@@ -21,8 +21,7 @@ export default function Footer() {
             style={{ color: isDark ? "#61dafb" : "#55198b" }}
           >
             DeveloperFolio
-          </a>{" "}
-          by Saad Pasta
+          </a>
         </p>
       </div>
     </Fade>
