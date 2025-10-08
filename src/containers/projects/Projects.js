@@ -16,12 +16,12 @@ export default function Projects() {
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
-  // Early return if openSource is disabled
-  if (!openSource.display) {
-    return null;
-  }
-
   useEffect(() => {
+    // Only fetch data if openSource is enabled
+    if (!openSource.display) {
+      return;
+    }
+    
     const getRepoData = () => {
       fetch("/profile.json")
         .then(result => {
@@ -46,6 +46,12 @@ export default function Projects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
+
+  // Early return if openSource is disabled
+  if (!openSource.display) {
+    return null;
+  }
+
   if (
     !(typeof repo === "string" || repo instanceof String) &&
     openSource.display
