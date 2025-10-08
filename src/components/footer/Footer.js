@@ -13,9 +13,6 @@ export default function Footer() {
       <div className="footer-div">
         {/* Removed default credit line as requested */}
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          © {new Date().getFullYear()} Jay Paun
-        </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Built with ❤️ using{" "}
           <a 
             href="https://github.com/saadpasta/developerFolio" 
