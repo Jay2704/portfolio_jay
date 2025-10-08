@@ -55,7 +55,7 @@ const skillsSection = {
     "🤖 <strong>AI/ML Powerhouse:</strong> PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks, Transformers",
     "🧠 <strong>GenAI & Orchestration:</strong> LangChain, LangGraph, RAG pipelines, LLMs, fine-tuning, CrewAI, n8n automations",
     "☁️ <strong>Cloud & DevOps:</strong> AWS, Docker, Jenkins, Kubernetes - Orchestrating seamless deployments",
-    "🗄️ <strong>Data Management:</strong> MySQL, MongoDB, PostgreSQL - Architecting robust data solutions",
+    "🗄️ <strong>Data Management:</strong> MySQL, MongoDB - Architecting robust data solutions",
     "🎯 <strong>Specialized Domains:</strong> Computer Vision, Human-Robot Interaction, Full-Stack Development, SDLC, Agile/Scrum"
   ],
 
