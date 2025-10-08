@@ -55,7 +55,7 @@ const skillsSection = {
     ),
     emoji("⚛️ Modern Frameworks: React.js, Node.js, Flask, Express.js, Redux - Creating scalable and responsive applications"),
     emoji(
-      "🤖 AI/ML Powerhouse: PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks"
+      "🤖 AI/ML Powerhouse: PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks, Transformers"
     ),
     emoji(
       "🧠 GenAI & Orchestration: LangChain, LangGraph, RAG pipelines, LLMs, fine-tuning, CrewAI, n8n automations"
