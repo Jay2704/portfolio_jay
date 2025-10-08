@@ -51,7 +51,7 @@ const skillsSection = {
   subTitle: "AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE",
   skills: [
     emoji(
-      "💻 Code Crafting: Python, JavaScript, Java, HTML5, CSS3, Shell Scripting - Building digital solutions with precision"
+      "💻 Code Crafting: Python, JavaScript, Java, HTML5, CSS3, Shell Scripting"
     ),
     emoji("⚛️ Modern Frameworks: React.js, Node.js, Flask, Express.js, Redux - Creating scalable and responsive applications"),
     emoji(
