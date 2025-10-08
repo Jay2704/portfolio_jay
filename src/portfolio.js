@@ -50,25 +50,13 @@ const skillsSection = {
   title: "Technical Arsenal",
   subTitle: "AI RESEARCHER & SOFTWARE ENGINEER WITH COMPREHENSIVE TECH EXPERTISE",
   skills: [
-    emoji(
-      "💻 <strong>Code Crafting:</strong> Python, JavaScript, Java, HTML5, CSS3, Shell Scripting"
-    ),
-    emoji("⚛️ <strong>Modern Frameworks:</strong> React.js, Node.js, Flask, Express.js, Redux - Creating scalable and responsive applications"),
-    emoji(
-      "🤖 <strong>AI/ML Powerhouse:</strong> PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks, Transformers"
-    ),
-    emoji(
-      "🧠 <strong>GenAI & Orchestration:</strong> LangChain, LangGraph, RAG pipelines, LLMs, fine-tuning, CrewAI, n8n automations"
-    ),
-    emoji(
-      "☁️ <strong>Cloud & DevOps:</strong> AWS, Docker, Jenkins, Kubernetes - Orchestrating seamless deployments"
-    ),
-    emoji(
-      "🗄️ <strong>Data Management:</strong> MySQL, MongoDB, PostgreSQL - Architecting robust data solutions"
-    ),
-    emoji(
-      "🎯 <strong>Specialized Domains:</strong> Computer Vision, Human-Robot Interaction, Full-Stack Development, SDLC, Agile/Scrum"
-    )
+    "💻 <strong>Code Crafting:</strong> Python, JavaScript, Java, HTML5, CSS3, Shell Scripting",
+    "⚛️ <strong>Modern Frameworks:</strong> React.js, Node.js, Flask, Express.js, Redux - Creating scalable and responsive applications",
+    "🤖 <strong>AI/ML Powerhouse:</strong> PyTorch, TensorFlow, OpenCV, Large Language Models, Deep Learning, Neural Networks, Transformers",
+    "🧠 <strong>GenAI & Orchestration:</strong> LangChain, LangGraph, RAG pipelines, LLMs, fine-tuning, CrewAI, n8n automations",
+    "☁️ <strong>Cloud & DevOps:</strong> AWS, Docker, Jenkins, Kubernetes - Orchestrating seamless deployments",
+    "🗄️ <strong>Data Management:</strong> MySQL, MongoDB, PostgreSQL - Architecting robust data solutions",
+    "🎯 <strong>Specialized Domains:</strong> Computer Vision, Human-Robot Interaction, Full-Stack Development, SDLC, Agile/Scrum"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
