@@ -179,9 +179,9 @@ const workExperiences = {
       desc:
         "Developing multimodal lie-detection systems combining EEG and visual data. Engineering scalable data pipelines for preprocessing and augmentation. Work under peer review.",
       descBullets: [
-        "Conducted an end-to-end lie detection experiment under the guidance of Dr. Ramana Vinjamuri, focusing on Human-Robot Interaction and Computer Vision using data collected from 25 subjects through EEG brain signals and visual stimuli.",
-        "Designed and trained a transformer-based deep learning model to detect P300 event-related potentials in EEG data, enhancing recognition accuracy for deception detection and cognitive analysis.",
-        "Integrated facial expression recognition using video recordings to build a multimodal deep learning framework, combining EEG signal processing, computer vision, and neural network architectures for improved lie detection performance."
+        "Conducted end-to-end lie detection experiment using EEG and visual data from 25 subjects under Dr. Ramana Vinjamuri",
+        "Designed transformer-based deep learning model for P300 event-related potential detection in EEG signals",
+        "Built multimodal framework combining EEG signal processing with facial expression recognition for improved lie detection"
       ]
     },
     {
