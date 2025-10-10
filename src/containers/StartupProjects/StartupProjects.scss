@@ -25,42 +25,47 @@
   border-radius: 8px;
 }
 
-/* Project card background colors */
+/* Project card background colors - Modern Fashionable Gradients */
 .project-card:nth-child(1) {
-  background: linear-gradient(135deg, #ffebee, #ffcdd2) !important; /* Light red for LLaMA 2 */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important; /* Purple to Blue gradient for LLaMA 2 */
 }
 
 .project-card:nth-child(2) {
-  background: linear-gradient(135deg, #fff3e0, #ffe0b2) !important; /* Light yellow for Distributed File System */
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important; /* Pink to Coral gradient for Distributed File System */
 }
 
 .project-card:nth-child(3) {
-  background: linear-gradient(135deg, #e8f5e8, #c8e6c9) !important; /* Light green for PyBot */
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important; /* Blue to Cyan gradient for PyBot */
 }
 
 .project-card:nth-child(4) {
-  background: linear-gradient(135deg, #e3f2fd, #bbdefb) !important; /* Light blue for Brain Tumor Detection */
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%) !important; /* Green to Teal gradient for Brain Tumor Detection */
 }
 .card-title {
-  color: $titleColor;
+  color: #ffffff;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .card-subtitle {
-  color: $cardSubtitle;
+  color: #f8f9fa;
   font-size: 17px;
   line-height: 1.5rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 .project-card {
   display: flex;
   flex-direction: column;
   background-color: $lightBackground2;
-  padding: 1.5rem;
-  border-radius: 10px;
-  border: 1px solid $lightBorder1;
+  padding: 2rem;
+  border-radius: 20px;
+  border: none;
   justify-content: center;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -80,10 +85,12 @@
   text-align: center;
 }
 .project-card-light:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 .project-card-dark:hover {
-  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 .project-image {
   position: relative;
@@ -96,8 +103,8 @@
 
 .projects-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 2rem;
 }
 
 .project-card-footer span.project-tag {
@@ -125,6 +132,9 @@
 }
 
 @media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
   .project-subtitle {
     font-size: 16px;
     text-align: center;
