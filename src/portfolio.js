@@ -23,7 +23,7 @@ const greeting = {
   username: "Jay Paun",
   title: "Hi, I am Jay Paun",
   subTitle: emoji(
-    "AI Researcher and Software Engineer specializing in end-to-end pipeline design and implementation, AI/ML development, and full-stack engineering. Passionate about building scalable systems and delivering complete solutions from concept to deployment."
+    "AI Researcher and Software Engineer specializing in end-to-end pipeline design and implementation, AI/ML development, and full-stack development. Passionate about building scalable systems and delivering complete solutions from concept to deployment."
   ),
   resumeLink: "/Jay_resume_sept.pdf", // Place resume at public/Jay_resume_sept.pdf to preview in browser
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -190,7 +190,7 @@ const workExperiences = {
       companylogo: require("./assets/images/HPE.jpg"),
       date: "Feb 2023 – Jul 2023 · Bangalore, India",
       desc:
-        "Contributed to cloud infrastructure automation and optimization at HPE. Built scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40% and boosting delivery speed by 25%. Optimized application performance on AWS by configuring services like EC2, S3, and DynamoDB, leading to 30% lower latency under peak load. Collaborated across teams to improve deployment workflows and implemented infrastructure-as-code practices for consistent, repeatable environments. Strengthened expertise in cloud-native development and CI/CD, gaining hands-on experience in delivering efficient, resilient systems in an enterprise setting.",
+        "Built scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40% and boosting delivery speed by 25%. Optimized AWS services (EC2, S3, DynamoDB) leading to 30% lower latency under peak load. Implemented infrastructure-as-code practices and collaborated across teams to improve deployment workflows in an enterprise environment.",
       descBullets: [
         "Built scalable DevOps pipelines using Ansible and Jenkins, reducing manual deployment effort by 40%",
         "Optimized AWS services (EC2, S3, DynamoDB), reducing latency by 30% under peak loads",
@@ -203,7 +203,7 @@ const workExperiences = {
       companylogo: require("./assets/images/IBM.png"),
       date: "Mar 2022 – Sep 2022 · Bangalore, India",
       desc:
-        "Developed a robust log assessment utility to streamline debugging in large-scale enterprise applications. The tool supported over 1,000 log files and featured automated error sequence detection, keyword-based filtering, and stack trace isolation. It significantly improved root cause analysis speed by 20%, enabling faster resolution of production issues. By categorizing logs based on patterns and timestamps, the utility helped identify recurring failures and performance bottlenecks. This project enhanced observability, reduced manual analysis, and supported smoother CI/CD workflows, ultimately improving developer productivity and system reliability in a fast-paced enterprise environment.",
+        "Developed a robust log assessment utility supporting 1,000+ log files with automated error detection, keyword-based filtering, and stack trace isolation. Improved root cause analysis speed by 20% and enhanced observability by categorizing logs based on patterns and timestamps. This streamlined debugging workflows and improved developer productivity in enterprise applications.",
       descBullets: [
         "Built robust log assessment tool supporting 1,000+ log files with automated error detection",
         "Improved root cause analysis speed by 20% through keyword-based filtering and stack trace isolation",
