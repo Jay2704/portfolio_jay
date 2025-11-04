@@ -4,7 +4,7 @@ Personal portfolio website showcasing AI/ML projects, work experience, and techn
 
 ## Summary
 
-AI Researcher and Software Engineer with expertise in end-to-end pipeline design, AI/ML development, and full-stack engineering. Currently pursuing M.S. in Computer Science at UMBC with hands-on experience at leading tech companies including IBM and Hewlett Packard Enterprise. Passionate about building scalable systems and delivering complete solutions from concept to deployment.
+Passionate AI Researcher and Software Engineer with expertise in multimodal systems, machine learning, and full-stack development. Currently pursuing advanced research in lie-detection systems combining EEG brain signals with computer vision at UMBC. Experienced in building scalable cloud infrastructure, optimizing AI models, and delivering end-to-end solutions from research to production. Committed to advancing the intersection of neuroscience and artificial intelligence through innovative engineering approaches.
 
 
 ## About
@@ -13,7 +13,7 @@ Passionate AI Researcher and Software Engineer with expertise in multimodal syst
 
 ## Key Projects
 
-### Fine-Tuning LLaMA 2 with QLoRA
+### Fine-Tuning LLaMA 2 with QLoRA      
 - Applied QLoRA techniques to fine-tune LLaMA 2–7B with 4-bit quantization
 - Reduced GPU memory consumption by 60% while preserving 95% task-specific accuracy
 - Optimized training workflow to accelerate iteration cycles by 40%
