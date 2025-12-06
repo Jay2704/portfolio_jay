@@ -24,7 +24,7 @@ Passionate AI Researcher and Software Engineer with expertise in multimodal syst
 - Packaged in Docker and managed via Kubernetes for streamlined deployment
 
 ### PyBot – Machine Learning Chatbot
-- Built using ML and NLP techniques
+- Built using ML and NLP 
 - Improved intent recognition accuracy by 25% and boosted user engagement
 - Deployed in containerized environments using Docker
 
