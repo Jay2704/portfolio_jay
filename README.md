@@ -162,12 +162,6 @@ Tips:
 
 You can also deploy the `build/` folder to any static host (Netlify, Vercel, S3, etc.).
 
-## Customization
-
-- Content: Edit `src/portfolio.js` to change bio, projects, skills, and links.
-- Theming: Adjust `src/_globalColor.scss` and SCSS modules for colors and styles.
-- Assets: Replace images in `src/assets/images/` and Lottie files in `src/assets/lottie/`.
-- Sections: Update containers under `src/containers/` and components in `src/components/`.
 
 ## Available Scripts
 
