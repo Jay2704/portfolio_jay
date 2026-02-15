@@ -1,6 +1,6 @@
 # Jay Paun - Portfolio
 
-Personal portfolio website showcasing AI and Full Stack projects, work experience, and technical skills.
+ portfolio website showcasing AI and Full Stack projects, work experience, and technical skills.
 
 ## Summary
 
